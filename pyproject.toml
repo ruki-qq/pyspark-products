@@ -9,7 +9,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "pyspark (>=4.0.1,<5.0.0)",
-    "ipykernel (>=6.30.1,<7.0.0)"
+    "ipykernel (>=6.30.1,<7.0.0)",
 ]
 
 [tool.poetry]
@@ -17,6 +17,10 @@ dependencies = [
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.4.2"
 ipytest = "^0.14.2"
+
+
+[tool.poetry.group.jyp.dependencies]
+jupyterlab = "^4.4.7"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
