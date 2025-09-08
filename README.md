@@ -38,11 +38,11 @@ The example uses three main DataFrames:
 
 1. **Install Dependencies**:
    ```bash
-   poetry install
+   poetry install --no-root
    ```
    or
    ```bash
-   poetry install --only main
+   poetry install --no-root --only main
    ```
    if don't need tests and jupyter server.
 
